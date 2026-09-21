@@ -16,6 +16,15 @@
             <!-- div is a block elemen__which is used to give the new space in place of br tag. -->
             <label for="username">Enter Your User Name</label>
             <input type="text" id="username" name="username" placeholder="Enter your name" autofocus required>
+            <br>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" placeholder="Email" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password">
+            <br>
+            <label for="ra">Contrast</label>
+            <input type="range" name="Contrast" id="ra" min="0" max="10">
             <!-- autofocus = to stay the cursor at that place -->
             <!-- required is used to mandate the box should be filled by the user. -->
         </div>
@@ -24,6 +33,7 @@
         <div>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label>
+
             <input type="radio" id="female" name="gender" value="female">
             <!-- id=for, if not then it cannot select the radio after tapping on text. -->
             <label for="female">Female</label>
@@ -49,6 +59,15 @@
             <option value="banana">Banana</option>
         </select>
 
+
+        <form action="https://www.bing.com/search">
+            <fieldset>
+                <!-- field sets the field of Bing. -->
+                <legend>Bing</legend>
+                <input type="text" name="q">
+                <button type="submit">Serach on bing</button>
+            </fieldset>
+        </form>
 
     </form>
 
